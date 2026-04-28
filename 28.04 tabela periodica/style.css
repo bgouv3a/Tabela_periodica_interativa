@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 80%;
+    height: 80vh;
+    border-collapse: collapse;
+    margin-left: 120px;
+
+}
+table tr{
+    width: 100%;
+    height: 30px;
+    
+}
+table tr td{
+    margin: 0px;
+}
+.vazio{
+    border: 0;
+}
