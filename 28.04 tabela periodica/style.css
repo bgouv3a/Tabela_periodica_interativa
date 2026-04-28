@@ -4,19 +4,49 @@
 }
 table{
     width: 80%;
-    height: 80vh;
+    height: 75vh;
     border-collapse: collapse;
     margin-left: 120px;
+    table-layout: fixed;
+    border-color:black ;
 
 }
-table tr{
-    width: 100%;
-    height: 30px;
-    
-}
+
 table tr td{
     margin: 0px;
+    padding: 1px;
+    height: 55px;
+    table-layout: fixed;
 }
+
+table tr td h1{
+    font-size: 20px;
+    text-align: center;
+}
+table tr td h2{
+    font-size: 10px;
+    text-align: center;
+}
+table tr td h3{
+    font-size: 8px;
+    text-align: center;
+}
+table tr td h4{
+    font-size: 12px;
+}
+
 .vazio{
     border: 0;
+}
+.hidrogenio{
+    background-color: greenyellow;
+}
+.MetaisAlca{
+    background-color: orange;
+}
+.MetaisAlcaTerro{
+    background-color: yellow;
+}
+.Nobres{
+    background-color: blue;
 }
