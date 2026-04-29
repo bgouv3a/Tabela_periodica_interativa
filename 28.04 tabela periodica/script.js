@@ -7,4 +7,14 @@ colecaoElementos.forEach((elemento) =>{
     <h2>${elemento.nome}</h2>
     <h3>${elemento.massaAtomica}</h3>
     `
+    tabela.rows[elemento.linha-1].cells[elemento.coluna-1].style.backgroundColor = elemento.corGrupo
+})
+
+document.querySelectorAll('td').forEach(td => {
+    td.addEventListener('click', function() {
+        
+       
+    })
+
+    
 })

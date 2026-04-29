@@ -3,12 +3,11 @@
     padding: 0;
 }
 table{
-    width: 80%;
-    height: 75vh;
+    width: 100%;
     border-collapse: collapse;
-    margin-left: 120px;
+    height: 110vh;
     table-layout: fixed;
-    border-color:black ;
+    border-color:white ;
 
 }
 
@@ -17,6 +16,7 @@ table tr td{
     padding: 1px;
     height: 55px;
     table-layout: fixed;
+    border-radius: 2px;
 }
 
 table tr td h1{
@@ -35,18 +35,3 @@ table tr td h4{
     font-size: 12px;
 }
 
-.vazio{
-    border: 0;
-}
-.hidrogenio{
-    background-color: greenyellow;
-}
-.MetaisAlca{
-    background-color: orange;
-}
-.MetaisAlcaTerro{
-    background-color: yellow;
-}
-.Nobres{
-    background-color: blue;
-}
