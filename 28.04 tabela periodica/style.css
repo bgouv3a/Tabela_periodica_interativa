@@ -34,4 +34,8 @@ table tr td h3{
 table tr td h4{
     font-size: 12px;
 }
-
+#detalhes{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
