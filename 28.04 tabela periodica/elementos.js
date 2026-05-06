@@ -2889,17 +2889,17 @@ const colecaoElementos = [
 
 colecaoElementos.forEach(e => {
   if (!e.corGrupo) {
-    if (e.grupo === 'metal alcalino') e.corGrupo = '#FF5733';
-    else if (e.grupo === 'metal alcalino-terroso') e.corGrupo = '#00C853'; // verde escuro vibrante
-    else if (e.grupo === 'lantanídeo') e.corGrupo = '#FFD700';
-    else if (e.grupo === 'actinoid') e.corGrupo = '#FF33A8';
-    else if (e.grupo === 'metal de transição') e.corGrupo = '#3380FF';
-    else if (e.grupo === 'metal') e.corGrupo = '#AAAAAA';
-    else if (e.grupo === 'metalóide') e.corGrupo = '#00FFD0';
+    if (e.grupo === 'metal alcalino') e.corGrupo = '#E03131';
+    else if (e.grupo === 'metal alcalino-terroso') e.corGrupo = '#F76707';
+    else if (e.grupo === 'lantanídeo') e.corGrupo = '#8CE99A';
+    else if (e.grupo === 'actinoid') e.corGrupo = '#51CF66';
+    else if (e.grupo === 'metal de transição') e.corGrupo = '#F08C00';
+    else if (e.grupo === 'metal') e.corGrupo = '#74C0FC';
+    else if (e.grupo === 'metalóide') e.corGrupo = '#66D9E8';
     else if (e.grupo === 'não metal') e.corGrupo = '#00FF00';
-    else if (e.grupo === 'halogênio') e.corGrupo = '#FF00FF';
-    else if (e.grupo === 'gás nobre') e.corGrupo = '#FFD600'; // amarelo forte
-    else if (e.grupo === 'post-transition metal') e.corGrupo = '#FF9800';
-    else e.corGrupo = '#CCCCCC'; // cor padrão para grupos desconhecidos
+    else if (e.grupo === 'halogênio') e.corGrupo = '#38D9A9';
+    else if (e.grupo === 'gás nobre') e.corGrupo = '#9775FA';
+    else if (e.grupo === 'post-transition metal') e.corGrupo = '#A9E34B';
+    else e.corGrupo = '#CED4DA';
   }
 });
