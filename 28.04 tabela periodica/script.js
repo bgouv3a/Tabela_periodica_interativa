@@ -29,14 +29,15 @@ document.querySelectorAll('td').forEach(td => {
         document.getElementById("info-td-numero").textContent = elemento.numeroAtomico
         document.getElementById("info-td-massa").textContent = elemento.massaAtomica
        
-        Object.entries(coresPorGrupo).forEach(([grupo, cor]) => {
+            
+    })
+})
+ Object.entries(e.corGrupo).forEach(([grupo, cor]) => {
             const item = document.createElement('div')
             item.innerHTML = `
                 <span style="background-color: ${cor}"></span>
                 <p>${grupo}</p>
             `
-            legenda.appendChild(item)
+            legenda.appendChild(item)   
         })
-    })
-})
 
