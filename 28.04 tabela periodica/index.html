@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table id="tabela" border="1">
+    <div id="legenda"></div>
+<div id="info">
+    <div id="painel-simbolo">
+        <p id="info-nome"></p>
+        <h1 id="info-simbolo"></h1>
+        <div>
+            <span id="info-numero"></span>
+            <span id="info-massa"></span>
+        </div>
+    </div>
+
+    <table id="painel-info">
+        <tr><td>Símbolo</td><td id="info-td-simbolo"></td></tr>
+        <tr><td>Número atômico</td><td id="info-td-numero"></td></tr>
+        <tr><td>Massa atômica</td><td id="info-td-massa"></td></tr>
+        <tr><td>Configuração eletrônica</td><td id="info-td-config"></td></tr>
+    </table>
+</div>
+    <table id="tabela" >
         <tr>
             <td></td>
             <td></td>
@@ -209,6 +227,7 @@
             <td></td>
         </tr>
     </table>
+    
 
     <script src="./elementos.js"></script>
     <script src="./script.js"></script>
