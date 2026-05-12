@@ -24,6 +24,7 @@ document.querySelectorAll('td').forEach(td => {
         document.getElementById("info-numero").textContent = elemento.numeroAtomico
         document.getElementById("info-massa").textContent = elemento.massaAtomica
         document.getElementById("info-td-config").textContent = elemento.configuracaoEletronica
+        document.getElementById("info-td-familia").textContent = elemento.grupo
         //quadrado grande do painel
         document.getElementById("info-td-simbolo").textContent = elemento.simbolo
         document.getElementById("info-td-numero").textContent = elemento.numeroAtomico
